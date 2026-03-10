@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <Toaster position="top-center" />
-      <Header/>
+      <Header setIsLogin={setIsLogin} />
       <div className='w-full '>
       <Routes>
         <Route path="/" element={!isLogin ? 
